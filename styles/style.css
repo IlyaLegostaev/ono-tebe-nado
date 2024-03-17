@@ -1,16 +1,16 @@
 .header {
-display: grid;
-grid-template-columns: 1fr min-content 1fr;
-grid-auto-rows: 105px;
-justify-content: space-between;
-align-items: center;
-max-width: 1052px;
-padding-left: 26px;
-padding-right: 26px;
-margin: 94px auto 0;
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    grid-auto-rows: 105px;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1052px;
+    padding-left: 26px;
+    padding-right: 26px;
+    margin: 94px auto 0;
 }
 .header__menu {
-justify-self: left;
+    justify-self: left;
 }
 .header__links-list {
     display: flex;
@@ -22,7 +22,7 @@ justify-self: left;
     list-style: circle;
 }
 .header__links-list-item_no-bullit {
-list-style: none;
+    list-style: none;
 }
 .header__link {
     color: rgba(0, 0, 0, 1);
